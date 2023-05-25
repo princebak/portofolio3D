@@ -22,7 +22,11 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  spring_boot,
+  java,
+  kotlin,
+  next,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -97,20 +101,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Spring Boot",
+    icon: spring_boot,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Next",
+    icon: next,
+  },
+  {
+    name: "Express",
+    icon: express,
   },
 ];
 

@@ -19,7 +19,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import spring_boot from "./tech/spring_boot.png";
+import java from "./tech/java.png";
+import kotlin from "./tech/kotlin.jpeg";
+import next from "./tech/next.png";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -51,7 +55,11 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  spring_boot,
+  kotlin,
+  java,
+  next,
+  express,
   meta,
   shopify,
   starbucks,
