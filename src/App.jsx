@@ -3,11 +3,11 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  Testimonials,
   Hero,
   Navbar,
   Tech,
-  Works,
+  Projects,
   StarsCanvas,
 } from "./components";
 
@@ -22,8 +22,8 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedbacks />
+        <Projects />
+        <Testimonials />
         <div className="relative z-0 ">
           <Contact />
           <StarsCanvas />

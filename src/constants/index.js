@@ -12,31 +12,36 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   spring_boot,
   java,
   kotlin,
   next,
   express,
+  sgc,
+  dumasolutions,
+  a20,
+  portofolio,
+  murdock,
+  benny,
+  bvn,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About Me",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -179,38 +184,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Bakenga proved me wrong.",
+    name: "Murdoch Kangudi",
+    designation: "CEO",
+    company: "DIGINCO",
+    image: murdock,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Benny Nkonga",
+    designation: "Developer",
+    company: "IBSS",
+    image: benny,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Bakenga optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Bienvenu Boleko",
+    designation: "Analyst & Programmer",
+    company: "Du Jardin",
+    image: bvn,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SGC",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web platform where donors can give donations to clinics, and each clinic can publish their donation cases.",
     tags: [
       {
-        name: "react",
+        name: "thymeleaf",
         color: "blue-text-gradient",
       },
       {
@@ -218,45 +223,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "springboot",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sgc,
+    online_link: "http://secureglobalclinics.org/index",
   },
   {
-    name: "Job IT",
+    name: "Duma Solutions",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Website showing dumasolutions products and the needed details.",
     tags: [
       {
-        name: "react",
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "htmn",
         color: "green-text-gradient",
       },
       {
@@ -264,8 +248,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dumasolutions,
+    online_link: "https://dumasolutions.com/",
+  },
+  {
+    name: "Arbotwenty",
+    description:
+      "A web game application, an educational thinking game that lets you do mental arithmetic while having fun.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jee",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: a20,
+    online_link: "https://arbotwenty.net/",
+  },
+  {
+    name: "Bakenga Portofolio",
+    description:
+      "A portofolio website where bakenga ilunga present him-self and its products.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portofolio,
+    online_link: "https://me.pribakil.com/",
   },
 ];
 
