@@ -28,7 +28,6 @@ import {
   murdock,
   benny,
   bvn,
-  blogcms,
 } from "../assets";
 
 export const navLinks = [
@@ -241,7 +240,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "htmn",
         color: "green-text-gradient",
       },
       {
@@ -293,26 +292,6 @@ const projects = [
     ],
     image: portofolio,
     online_link: "https://me.pribakil.com/",
-  },
-  {
-    name: "WebBlog with CMS",
-    description: "A blog website where we discuss about web technologies.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "graphql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: blogcms,
-    online_link: "https://blogcms.pribakil.com/",
   },
 ];
 

@@ -34,7 +34,6 @@ import tesla from "./company/tesla.png";
 import sgc from "./sgc.png";
 import dumasolutions from "./dumasolutions.png";
 import a20 from "./a20.png";
-import blogcms from "./blogcms.png";
 import portofolio from "./portofolio.png";
 
 import murdock from "./murdock.jpg";
@@ -49,7 +48,6 @@ export {
   dumasolutions,
   a20,
   portofolio,
-  blogcms,
   link,
   logo,
   backend,
