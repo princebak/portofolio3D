@@ -241,7 +241,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "htmn",
+        name: "html",
         color: "green-text-gradient",
       },
       {
