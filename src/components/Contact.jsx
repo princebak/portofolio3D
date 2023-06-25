@@ -29,7 +29,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, message } = form;
-    if (!name || !email || !message) {
+    const regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+    if (!name || !email || !message || !regexEmail.test(email)) {
       setError(true);
       return;
     }
@@ -98,7 +100,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email *</span>
             <input
-              type="text"
+              type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
@@ -132,7 +134,9 @@ const Contact = () => {
           )}
 
           {error && (
-            <em style={{ color: "red" }}>Fill all the required(*) fields</em>
+            <em style={{ color: "red" }}>
+              Fill all the required(*) fields with valid information please.
+            </em>
           )}
         </form>
       </motion.div>
