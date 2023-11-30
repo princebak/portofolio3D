@@ -29,6 +29,7 @@ import {
   murdock,
   benny,
   bvn,
+  lfondation,
 } from "../assets";
 
 export const navLinks = [
@@ -211,12 +212,11 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SGC",
-    description:
-      "A web platform where donors can give donations to clinics, and each clinic can publish their donation cases.",
+    name: "L-Fondation",
+    description: "Lingomba fondation is a company specialized in finance.",
     tags: [
       {
-        name: "thymeleaf",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -224,13 +224,14 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "springboot",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: sgc,
-    online_link: "http://secureglobalclinics.org/index",
+    image: lfondation,
+    online_link: "https://l-fondation.vercel.app/",
   },
+
   {
     name: "Duma Solutions",
     description:
@@ -292,7 +293,7 @@ const projects = [
       },
     ],
     image: portofolio,
-    online_link: "https://me.pribakil.com/",
+    online_link: "https://prince-bakenga-portofolio.vercel.app/",
   },
   {
     name: "WebBlog with CMS",
@@ -312,7 +313,28 @@ const projects = [
       },
     ],
     image: blogcms,
-    online_link: "https://blogcms.pribakil.com/",
+    online_link: "https://blogcms-sigma.vercel.app/",
+  },
+  {
+    name: "SGC",
+    description:
+      "A web platform where donors can give donations to clinics, and each clinic can publish their donation cases.",
+    tags: [
+      {
+        name: "thymeleaf",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "springboot",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sgc,
+    online_link: "http://secureglobalclinics.org/index",
   },
 ];
 
